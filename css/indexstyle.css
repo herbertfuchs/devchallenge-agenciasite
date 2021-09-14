@@ -30,6 +30,14 @@ a{
     justify-content: space-between;
 }
 
+#logo{
+    font-family: 'Azaret Mono', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+
+    user-select: none;
+}
+
 #logo span{
     color: red;
 }
@@ -43,6 +51,7 @@ a{
     letter-spacing: 0.125rem;
     margin-left: 1.5rem;
 }
+
 
 /** --------------- CORPO --------------- **/
 
