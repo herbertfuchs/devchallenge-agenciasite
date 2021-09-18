@@ -15,6 +15,11 @@ a{
     color: white;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 /** --------------- HEADER --------------- **/
 
 nav{
@@ -122,3 +127,55 @@ nav{
   }
 
 /** --------------- CORPO --------------- **/
+
+.image{
+  background-color:transparent;
+  display: flex;
+
+  margin-top: 2%;
+  margin-left: 3%;
+
+  width: 45%;
+
+  transition: 0.5s;
+}
+
+.text{
+  float: right;
+
+  margin-top: -35rem;
+  margin-right: 15%;
+}
+
+.text h1{
+  font-family: 'Azaret Mono', sans-serif;
+  font-weight: 700;
+
+  font-size: 2.5rem;
+}
+
+.text p{
+  font-family: 'Azaret Mono', sans-serif;
+  font-weight: 300;
+
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.text a{
+  background-color: red;
+
+  font-family: 'Azaret Mono', sans-serif;
+  font-weight: 700;
+
+  margin: 0 7rem;
+  padding: 1rem;
+}
+
+.text a:hover{
+  background-color: #911723;
+
+  transition: 0.5s;
+}
+
+
